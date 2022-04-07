@@ -1,19 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+<!--
+
+    Dear code inspector, you wont find anything interesting here.
+    Why would i lie to you? Inspecting code is just a waste of time. (Except for educational purposes.)
+    My advice for you: "Its never too late to do something productive."
+
+-->
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kragleh | Search</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="extra/css/style.css">
+    <link rel="stylesheet" href="extra/css/fonts.css">
+    <link rel="stylesheet" href="extra/css/footer.css">
+    <link rel="stylesheet" href="extra/css/header.css">
+    <link rel="stylesheet" href="extra/css/container.css">
+    <link rel="stylesheet" href="extra/css/box.css">
 </head>
 <body>
-    <script src="index.js"></script>
     <div class="container">
-        <h5>Note: This website isnt a finished product!</h5>
-        <form action="https://www.google.com/search" class="searchform" method="get" >
-            <input class="search" name="q" placeholder="Search" required="required"  type="text">
-        </form>
+        <script src="extra/js/index.js"></script>
+        <div class="header">
+            <div class="clock" id="clock" onload="currentTime()"></div>
+            <script src="extra/js/clock.js"></script>
+        </div>
+        <div class="box">
+            <form action="https://www.google.com/search" class="searchform" method="get" >
+                <input class="search" name="q" autocomplete="false" placeholder="Search" required="required"  type="text">
+            </form>
+        </div>
+        <div class="footer">
+            <a href="https://kragleh.xyz"><img src="../extra/pictures/Logo.png" height ="50" width="50" /></a>
+        </div>
     </div>
 </body>
 </html>
