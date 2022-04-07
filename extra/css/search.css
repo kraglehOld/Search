@@ -1,0 +1,23 @@
+.search {
+    text-align: center;
+    border: 0px;
+    background-color: transparent;
+    font-size: 128px;
+    width: 100%;
+    color: white;
+    text-shadow: 0px 0px 15px #1c1c1c;
+    font-weight: 600;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.search:focus {
+    outline: none;
+}
+
+.search::placeholder { 
+    color: rgb(255, 255, 255);
+    opacity: 1;
+}
